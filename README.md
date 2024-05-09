@@ -1,14 +1,15 @@
-<h1>larave</h1>
+<h1>Laravel</h1> <p>
+  First, you need XAMPP for migration and also download Laravel on your PC if you don't have it.</p>
+What you need:
 
+Migration: Run the following command to generate a model and migration file:
 
+-php artisan make:model ModelName --migration
+-Controller: Create a controller using the following command:
 
+-php artisan make:controller ControllerName
+View (Blade): Create Blade views to render your application's UI.
+Routes: Define routes in your routes/web.php file to handle incoming requests and direct them to the appropriate controller methods.
+php
 
-<p> first you need a xmmp  for migration and also donwold laravel in you vc if you don't  have </p>
-
-what you need?!
-
-
-1-migration:php artisan make:model modelName -m,
-2-contrroloer:php artisan make:controller Controllernaame,
-3-viwe(blade),
-4-route,
+Route::get('/url', 'ControllerName@methodName');
